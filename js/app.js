@@ -2,6 +2,7 @@
 var chartApp = angular.module('chartApp', []);
 chartApp.controller('mainCtrl', function($scope, $http) {
 	// Variables
+	// Testing
 	$scope.months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 	$scope.stockData = [];
 	$scope.snapshot = {};
